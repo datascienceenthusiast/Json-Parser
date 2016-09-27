@@ -40,7 +40,7 @@ public class test1 {
 		String everything = null;
 		FileInputStream inputStream = null;
 		try {
-			inputStream = new FileInputStream("E:\\SpconnectionOutput_json.txt");
+			inputStream = new FileInputStream("E:\\json.txt");
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
 		} catch (IOException e) {
